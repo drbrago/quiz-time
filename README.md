@@ -32,15 +32,15 @@ npm run preview
 
 ## Deploy till GitHub Pages
 
+Projektet innehåller en GitHub Actions-workflow i `.github/workflows/deploy.yml` som bygger och publicerar sajten till GitHub Pages när du pushar till `main`.
+
+Gör så här:
+
 1. Lägg projektet i ett GitHub-repo.
-2. Kör `npm install`.
-3. Kör `npm run build`.
-4. Publicera innehållet i `dist/` till GitHub Pages.
-
-Två vanliga sätt:
-
-- Använd en `gh-pages`-gren och ladda upp innehållet från `dist/`.
-- Använd GitHub Actions och publicera mappen `dist/` som Pages-artifact.
+2. Pusha koden till branchen `main`.
+3. Gå till GitHub: `Settings` → `Pages`.
+4. Under `Source`, välj `GitHub Actions`.
+5. Nästa push till `main` bygger och deployar sajten automatiskt.
 
 Viktigt: `vite.config.js` använder relativ `base` (`"./"`), så samma build fungerar både i lokal preview och på GitHub Pages.
 
