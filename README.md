@@ -46,13 +46,13 @@ Viktigt: `vite.config.js` använder relativ `base` (`"./"`), så samma build fun
 
 ## Ändra Vite base path om repo-namnet ändras
 
-Med den nuvarande konfigurationen behöver du normalt inte ändra något när repo-namnet ändras, eftersom relativa asset-sökvägar fungerar oavsett om repot heter `quize-time` eller något annat.
+Med den nuvarande konfigurationen behöver du normalt inte ändra något när repo-namnet ändras, eftersom relativa asset-sökvägar fungerar oavsett om repot heter `quiz-time` eller något annat.
 
 Om du i framtiden vill använda en absolut GitHub Pages-sökväg i stället, ändra `base` i `vite.config.js` till repo-namnet:
 
 ```js
 export default defineConfig({
-  base: "/mitt-nya-repo/"
+  base: "/mitt-nya-repo/",
 });
 ```
 
