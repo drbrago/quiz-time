@@ -2,10 +2,10 @@ export const questions = [
   {
     question: "Vad är en naturresurs?",
     options: [
-      "Något som människor tillverkar i fabriker",
       "Något som finns i naturen och som människor har nytta av",
-      "Något som bara djur använder",
-      "Något som bara finns under marken",
+      "Något som människor tillverkar av naturmaterial",
+      "Något i naturen som alltid kan återbildas snabbt",
+      "Något som bara används för att skapa energi",
     ],
     correctAnswer: "Något som finns i naturen och som människor har nytta av",
     explanation:
@@ -13,7 +13,7 @@ export const questions = [
   },
   {
     question: "Vilket av följande är ett exempel på en naturresurs?",
-    options: ["Mobiltelefon", "Skog", "Bil", "Plastflaska"],
+    options: ["Skog", "Papper", "Stål", "Bensin"],
     correctAnswer: "Skog",
     explanation:
       "Skog är en naturresurs eftersom den finns i naturen och kan användas av människor.",
@@ -21,24 +21,24 @@ export const questions = [
   {
     question: "Vad betyder det att förädla en råvara?",
     options: [
-      "Att slänga den när den blivit gammal",
-      "Att skydda den från att användas",
       "Att bearbeta den så att den blir en användbar produkt",
-      "Att låta den ligga kvar i naturen",
+      "Att skydda den så att den håller längre i naturen",
+      "Att göra om den till en energikälla",
+      "Att sortera den innan den säljs vidare",
     ],
     correctAnswer: "Att bearbeta den så att den blir en användbar produkt",
     explanation: "Till exempel kan trä förädlas till papper eller kartong.",
   },
   {
     question: "Vilken av dessa naturresurser är förnybar?",
-    options: ["Olja", "Kol", "Vind", "Järnmalm"],
+    options: ["Vind", "Torv", "Naturgas", "Järnmalm"],
     correctAnswer: "Vind",
     explanation:
       "Vind är förnybar eftersom den inte tar slut på samma sätt som fossila bränslen eller mineraler.",
   },
   {
     question: "Vilken av dessa naturresurser är icke-förnybar?",
-    options: ["Sol", "Vatten", "Olja", "Vind"],
+    options: ["Olja", "Skog", "Vattenkraft", "Solenergi"],
     correctAnswer: "Olja",
     explanation:
       "Olja är en fossil resurs som bildats under mycket lång tid och därför kan ta slut.",
@@ -46,10 +46,10 @@ export const questions = [
   {
     question: "Varför räknas järnmalm som icke-förnybar?",
     options: [
-      "För att den bara finns i Sverige",
       "För att den bildas så långsamt att den inte hinner ersättas",
-      "För att den är farlig att använda",
-      "För att den inte går att sälja",
+      "För att den är svår att bryta i många länder",
+      "För att den bara kan användas en enda gång",
+      "För att den inte går att återvinna",
     ],
     correctAnswer:
       "För att den bildas så långsamt att den inte hinner ersättas",
@@ -58,10 +58,10 @@ export const questions = [
   {
     question: "Varför är vatten en livsviktig naturresurs?",
     options: [
-      "För att vatten bara behövs i fabriker",
       "För att människor, djur och växter behöver vatten för att leva",
-      "För att vatten bara används till tvätt",
-      "För att vatten ersätter mat",
+      "För att vatten behövs i nästan all energiproduktion",
+      "För att vatten är den vanligaste naturresursen på jorden",
+      "För att vatten främst används för jordbruk och industri",
     ],
     correctAnswer:
       "För att människor, djur och växter behöver vatten för att leva",
@@ -71,10 +71,10 @@ export const questions = [
   {
     question: "Vad är grundvatten?",
     options: [
-      "Vatten som finns i moln",
-      "Vatten som finns i havet",
       "Vatten som finns under marken",
-      "Vatten som finns i isberg",
+      "Vatten som lagras i sjöar och vattendrag",
+      "Vatten som bildas när snö smälter på våren",
+      "Vatten som renats innan det når hushåll",
     ],
     correctAnswer: "Vatten som finns under marken",
     explanation:
@@ -83,10 +83,10 @@ export const questions = [
   {
     question: "Varför har vi ofta god tillgång till vatten i Norden?",
     options: [
-      "För att vi nästan aldrig använder vatten",
       "För att klimatet är fuktigt och det faller mycket regn och snö",
-      "För att allt vatten importeras",
-      "För att haven är nära",
+      "För att en liten del av befolkningen arbetar i jordbruket",
+      "För att det finns stora havsområden nära kusterna",
+      "För att vattenanvändningen per person är ganska låg",
     ],
     correctAnswer:
       "För att klimatet är fuktigt och det faller mycket regn och snö",
@@ -97,10 +97,10 @@ export const questions = [
     question:
       "Hur kan brist på rent vatten påverka flickor i vissa delar av världen?",
     options: [
-      "De får längre sommarlov",
       "De kan behöva lägga mycket tid på att hämta vatten och missa skolan",
-      "De får gratis mat i skolan",
-      "De behöver inte arbeta hemma",
+      "De kan få svårare att arbeta inom jordbruket hemma",
+      "De kan bli tvungna att flytta till större städer tidigare",
+      "De kan få mindre tillgång till sjukvård och transporter",
     ],
     correctAnswer:
       "De kan behöva lägga mycket tid på att hämta vatten och missa skolan",
@@ -109,10 +109,10 @@ export const questions = [
   {
     question: "Vad är mikroplaster?",
     options: [
-      "Stora plastpåsar i havet",
       "Mycket små plastpartiklar",
-      "Plast som bara finns i fabriker",
-      "Plast som alltid är biologiskt nedbrytbar",
+      "Plastdelar som är så små att de inte kan återvinnas",
+      "Små plastföremål som används i industrin",
+      "Nedbruten plast som blivit till ett naturligt ämne",
     ],
     correctAnswer: "Mycket små plastpartiklar",
     explanation:
@@ -121,10 +121,10 @@ export const questions = [
   {
     question: "Vilket av följande kan vara en källa till mikroplaster?",
     options: [
-      "Träbord",
       "Bildäck och syntetkläder",
-      "Glasflaskor",
-      "Papperspåsar",
+      "Kartongförpackningar och träfibrer",
+      "Glasflaskor och aluminiumburkar",
+      "Bomullskläder och naturgummi",
     ],
     correctAnswer: "Bildäck och syntetkläder",
     explanation:
@@ -133,10 +133,10 @@ export const questions = [
   {
     question: "Varför är skogen viktig?",
     options: [
-      "Den ger bara plats åt insekter",
       "Den ger råvaror, livsmiljöer och hjälper klimatet",
-      "Den används bara för att bygga vägar",
-      "Den har ingen betydelse för människor",
+      "Den ger råvaror och skyddar marken från att torka ut helt",
+      "Den producerar syre och är viktig för friluftsliv",
+      "Den binder marken och ger människor virke och bränsle",
     ],
     correctAnswer: "Den ger råvaror, livsmiljöer och hjälper klimatet",
     explanation:
@@ -145,10 +145,10 @@ export const questions = [
   {
     question: "Hur hjälper trädens rötter marken?",
     options: [
-      "De gör att jorden blåser bort lättare",
       "De binder jorden så att den inte sköljs eller blåser bort lika lätt",
-      "De gör marken hård som asfalt",
-      "De hindrar all växtlighet",
+      "De gör att marken blir mer näringsrik för alla växter",
+      "De förhindrar att vatten tränger ner i jorden för snabbt",
+      "De gör marken hårdare och mer tålig för tung trafik",
     ],
     correctAnswer:
       "De binder jorden så att den inte sköljs eller blåser bort lika lätt",
@@ -157,10 +157,10 @@ export const questions = [
   {
     question: "Hur hjälper skogen klimatet?",
     options: [
-      "Genom att släppa ut mer koldioxid",
       "Genom att ta upp koldioxid och producera syre",
-      "Genom att göra haven kallare",
-      "Genom att stoppa allt regn",
+      "Genom att kyla ner luften så att växthuseffekten minskar",
+      "Genom att lagra vatten som annars hade avdunstat",
+      "Genom att minska mängden nederbörd i känsliga områden",
     ],
     correctAnswer: "Genom att ta upp koldioxid och producera syre",
     explanation: "Träd är viktiga för klimatet eftersom de binder koldioxid.",
@@ -168,10 +168,10 @@ export const questions = [
   {
     question: "Vad menas med skogsomvandling?",
     options: [
-      "Att skogen blir tätare av sig själv",
       "Att skog ersätts av annan markanvändning, till exempel odlingar eller vägar",
-      "Att skogen får fler djur",
-      "Att man planterar fler träd",
+      "Att gammal skog byts ut mot yngre planterad skog",
+      "Att skogsmark görs om till skyddad natur",
+      "Att skog förändras naturligt när klimatet blir varmare",
     ],
     correctAnswer:
       "Att skog ersätts av annan markanvändning, till exempel odlingar eller vägar",
@@ -181,10 +181,10 @@ export const questions = [
   {
     question: "Vad är viktigt för ett hållbart skogsbruk?",
     options: [
-      "Att hugga ner så mycket som möjligt så snabbt som möjligt",
       "Att planera långsiktigt och låta ny skog växa upp",
-      "Att bara använda marken en gång",
-      "Att undvika all återplantering",
+      "Att bara avverka träd som kan säljas dyrt",
+      "Att låta delar av skogen stå kvar men använda resten intensivt",
+      "Att ersätta naturlig skog med snabbväxande trädslag",
     ],
     correctAnswer: "Att planera långsiktigt och låta ny skog växa upp",
     explanation:
@@ -192,7 +192,7 @@ export const questions = [
   },
   {
     question: "Vilken av följande är en energikälla?",
-    options: ["Vind", "Sand", "Snöboll", "Lera"],
+    options: ["Vind", "Uranmalm", "Träfiber", "Grus"],
     correctAnswer: "Vind",
     explanation:
       "Vind är en energikälla eftersom vindkraft kan omvandla rörelseenergi till elektricitet.",
@@ -200,10 +200,10 @@ export const questions = [
   {
     question: "Vilka av följande räknas som fossila bränslen?",
     options: [
-      "Sol, vind och vatten",
       "Kol, olja och fossilgas",
-      "Trä, vatten och järn",
-      "Uran, vind och sol",
+      "Kol, biobränsle och torv",
+      "Olja, uran och naturgas",
+      "Ved, kol och fossilgas",
     ],
     correctAnswer: "Kol, olja och fossilgas",
     explanation:
@@ -212,10 +212,10 @@ export const questions = [
   {
     question: "Hur fungerar vattenkraft i stora drag?",
     options: [
-      "Genom att solen värmer upp dammen",
       "Genom att rinnande eller fallande vatten driver turbiner",
-      "Genom att man bränner vatten",
-      "Genom att vinden blåser på vattnet",
+      "Genom att vatten värms upp och blir till ånga som driver generatorer",
+      "Genom att vatten samlas i dammar och sedan omvandlas till bränsle",
+      "Genom att vågor pressar luft som driver elektriska motorer",
     ],
     correctAnswer: "Genom att rinnande eller fallande vatten driver turbiner",
     explanation: "Vattenkraft använder vattnets rörelse för att skapa energi.",
@@ -223,10 +223,10 @@ export const questions = [
   {
     question: "Hur uppstår vind som kan användas i vindkraftverk?",
     options: [
-      "När jorden står stilla",
       "När solen värmer olika delar av jorden olika mycket",
-      "När havet fryser",
-      "När människor bygger höga hus",
+      "När jordens rotation pressar luftmassor i samma riktning",
+      "När hav och land alltid har olika temperatur året om",
+      "När kall luft stiger och varm luft sjunker",
     ],
     correctAnswer: "När solen värmer olika delar av jorden olika mycket",
     explanation:
@@ -235,10 +235,10 @@ export const questions = [
   {
     question: "Vad är hållbar utveckling?",
     options: [
-      "Att bara tänka på ekonomi",
       "Att leva bra idag utan att förstöra möjligheterna för framtidens människor",
-      "Att använda så mycket resurser som möjligt",
-      "Att sluta bygga samhällen",
+      "Att utveckla samhället så att ekonomin växer utan avbrott",
+      "Att skydda miljön även om människors liv blir mycket sämre",
+      "Att använda naturresurser långsamt så att de räcker länge",
     ],
     correctAnswer:
       "Att leva bra idag utan att förstöra möjligheterna för framtidens människor",
@@ -248,10 +248,10 @@ export const questions = [
   {
     question: "Vilka är de tre delarna av hållbar utveckling?",
     options: [
-      "Vind, vatten och sol",
       "Ekologisk, social och ekonomisk hållbarhet",
-      "Skog, jord och hav",
-      "Fattigdom, rikedom och klimat",
+      "Miljö, energi och rättvisa",
+      "Natur, människor och politik",
+      "Klimat, välfärd och handel",
     ],
     correctAnswer: "Ekologisk, social och ekonomisk hållbarhet",
     explanation: "De tre dimensionerna hör ihop och måste fungera tillsammans.",
@@ -260,10 +260,10 @@ export const questions = [
     question:
       "Vilken del av hållbar utveckling handlar om naturen, klimatet och jordens resurser?",
     options: [
-      "Den sociala dimensionen",
-      "Den ekonomiska dimensionen",
       "Den ekologiska dimensionen",
-      "Den politiska dimensionen",
+      "Den ekonomiska dimensionen",
+      "Den sociala dimensionen",
+      "Den globala dimensionen",
     ],
     correctAnswer: "Den ekologiska dimensionen",
     explanation:
@@ -275,8 +275,8 @@ export const questions = [
     options: [
       "Den sociala dimensionen",
       "Den ekologiska dimensionen",
-      "Den geologiska dimensionen",
-      "Den tekniska dimensionen",
+      "Den ekonomiska dimensionen",
+      "Den industriella dimensionen",
     ],
     correctAnswer: "Den sociala dimensionen",
     explanation:
@@ -286,10 +286,10 @@ export const questions = [
     question:
       "Vad menas med att dimensionerna i hållbar utveckling hänger ihop?",
     options: [
-      "Att bara miljön spelar roll",
       "Att ett beslut ofta påverkar både natur, människor och ekonomi",
-      "Att ekonomi alltid är viktigast",
-      "Att sociala frågor inte påverkar klimatet",
+      "Att miljöfrågor alltid är viktigare än sociala frågor",
+      "Att ekonomi och miljö nästan alltid leder till samma lösning",
+      "Att sociala frågor främst påverkar politik men sällan naturen",
     ],
     correctAnswer:
       "Att ett beslut ofta påverkar både natur, människor och ekonomi",
@@ -299,10 +299,10 @@ export const questions = [
   {
     question: "Vad är ett konsumtionssamhälle?",
     options: [
-      "Ett samhälle där människor inte köper saker",
       "Ett samhälle där mycket handlar om att köpa och sälja varor och tjänster",
-      "Ett samhälle utan reklam",
-      "Ett samhälle där alla tillverkar allt själva",
+      "Ett samhälle där de flesta producerar det de själva behöver",
+      "Ett samhälle där konsumtionen mest styrs av statliga beslut",
+      "Ett samhälle där naturresurser används sparsamt",
     ],
     correctAnswer:
       "Ett samhälle där mycket handlar om att köpa och sälja varor och tjänster",
@@ -312,10 +312,10 @@ export const questions = [
   {
     question: "Vad menas med slit-och-släng?",
     options: [
-      "Att laga saker länge",
       "Att köpa billiga saker som används kort tid och sedan kastas",
-      "Att dela saker med andra",
-      "Att återvinna allt direkt",
+      "Att använda produkter hårt tills de inte längre går att laga",
+      "Att köpa mycket men återvinna allt efter användning",
+      "Att välja produkter som är billiga att producera",
     ],
     correctAnswer:
       "Att köpa billiga saker som används kort tid och sedan kastas",
@@ -325,10 +325,10 @@ export const questions = [
   {
     question: "Vilket är ett mer hållbart sätt att konsumera?",
     options: [
-      "Köpa nytt hela tiden",
       "Låna, laga, återanvända och återvinna",
-      "Slänga saker så fort de blir omoderna",
-      "Köpa dubbelt av allt",
+      "Köpa färre men helt nya produkter oftare",
+      "Välja billigast möjliga produkter så att fler har råd",
+      "Köpa lokalt producerade produkter även om de snabbt går sönder",
     ],
     correctAnswer: "Låna, laga, återanvända och återvinna",
     explanation:
@@ -337,10 +337,10 @@ export const questions = [
   {
     question: "Vad är cirkulär ekonomi?",
     options: [
-      "Att varor används kort tid och sedan blir skräp",
       "Att material och produkter hålls kvar i användning så länge som möjligt",
-      "Att bara företag får återvinna",
-      "Att man bara tillverkar runda saker",
+      "Att råvaror används i flera fabriker innan de säljs",
+      "Att produkter tillverkas av återvunnet material från början",
+      "Att företag återanvänder sina vinster till ny produktion",
     ],
     correctAnswer:
       "Att material och produkter hålls kvar i användning så länge som möjligt",
@@ -350,10 +350,10 @@ export const questions = [
   {
     question: "Vad är global uppvärmning?",
     options: [
-      "Att det blir sommar varje dag",
       "Att jordens medeltemperatur stiger",
-      "Att solen kommer närmare jorden",
-      "Att all snö försvinner direkt",
+      "Att alla delar av jorden blir varmare i samma takt",
+      "Att somrarna blir längre än vintrarna globalt",
+      "Att vädret blir mer extremt i många delar av världen",
     ],
     correctAnswer: "Att jordens medeltemperatur stiger",
     explanation:
@@ -363,9 +363,9 @@ export const questions = [
     question: "Vad orsakar främst den globala uppvärmningen enligt materialet?",
     options: [
       "Att människor använder och förbränner fossila bränslen",
-      "Att växter växer",
-      "Att det regnar för mycket",
-      "Att årstiderna växlar",
+      "Att skogar huggs ner och ersätts av jordbruk över hela världen",
+      "Att industrier och transporter använder stora mängder energi",
+      "Att halterna av växthusgaser ökar när naturen förändras",
     ],
     correctAnswer: "Att människor använder och förbränner fossila bränslen",
     explanation:
@@ -374,10 +374,10 @@ export const questions = [
   {
     question: "Vad är klimatförändringar?",
     options: [
-      "Att vädret ändras från timme till timme",
       "Att klimatet förändras över längre tid, bland annat när jorden blir varmare",
-      "Att vinden blåser olika mycket",
-      "Att det regnar en dag och är sol nästa",
+      "Att vädret varierar mer mellan årstiderna än tidigare",
+      "Att temperatur och nederbörd förändras i vissa delar av världen",
+      "Att extrema väderhändelser blir vanligare i ett förändrat klimat",
     ],
     correctAnswer:
       "Att klimatet förändras över längre tid, bland annat när jorden blir varmare",
@@ -386,7 +386,12 @@ export const questions = [
   },
   {
     question: "Var går uppvärmningen snabbare än genomsnittet enligt boken?",
-    options: ["Vid polerna", "Vid ekvatorn", "I öknar", "I regnskogar"],
+    options: [
+      "Vid polerna",
+      "Över haven",
+      "I torra inlandsområden",
+      "Runt ekvatorn",
+    ],
     correctAnswer: "Vid polerna",
     explanation:
       "I boken står att uppvärmningen går snabbare i områdena vid polerna.",
@@ -394,10 +399,10 @@ export const questions = [
   {
     question: "Hur kan korallrev påverkas av klimatförändringar?",
     options: [
-      "De växer alltid snabbare",
       "De kan skadas och dö när havet blir varmare och surare",
-      "De flyttar upp på land",
-      "De blir till is",
+      "De kan växa långsammare när havsströmmarna förändras",
+      "De kan förlora fiskarter när havsnivån stiger snabbt",
+      "De kan torka ut när nederbörden minskar i tropikerna",
     ],
     correctAnswer: "De kan skadas och dö när havet blir varmare och surare",
     explanation:
@@ -406,10 +411,10 @@ export const questions = [
   {
     question: "Hur kan klimatförändringar påverka odling av livsmedel?",
     options: [
-      "All mat växer bättre",
       "Pollinerare som bin kan minska och det kan bli svårare att odla mat",
-      "Det påverkar inte jordbruk alls",
-      "Alla marker blir automatiskt bördigare",
+      "Vissa grödor kan växa snabbare men ge sämre kvalitet",
+      "Marken kan bli torrare och därför svårare att odla i",
+      "Odlingar kan skadas av fler perioder med extremväder",
     ],
     correctAnswer:
       "Pollinerare som bin kan minska och det kan bli svårare att odla mat",
@@ -419,10 +424,10 @@ export const questions = [
   {
     question: "Vad menas med klimatflyktingar?",
     options: [
-      "Turister som gillar varmt väder",
       "Människor som tvingas lämna sina hem på grund av klimatförändringar",
-      "Människor som flyttar för att få bättre jobb",
-      "Forskare som studerar väder",
+      "Människor som flyttar från varma områden till kallare klimat",
+      "Människor som inte längre kan arbeta inom jordbruk på grund av torka",
+      "Människor som lämnar sina hemländer efter extrema naturkatastrofer",
     ],
     correctAnswer:
       "Människor som tvingas lämna sina hem på grund av klimatförändringar",
@@ -432,10 +437,10 @@ export const questions = [
   {
     question: "Vad är syftet med FN:s globala mål?",
     options: [
-      "Att bara hjälpa rika länder",
       "Att skapa en mer hållbar och rättvis värld",
-      "Att få länder att använda mer fossila bränslen",
-      "Att minska utbildning i världen",
+      "Att minska fattigdom och miljöproblem i utvecklingsländer",
+      "Att ge alla länder samma ekonomiska förutsättningar",
+      "Att lösa klimatproblemen innan år 2030",
     ],
     correctAnswer: "Att skapa en mer hållbar och rättvis värld",
     explanation:
@@ -443,7 +448,7 @@ export const questions = [
   },
   {
     question: "Hur många globala mål finns det?",
-    options: ["10", "12", "17", "20"],
+    options: ["17", "16", "18", "20"],
     correctAnswer: "17",
     explanation:
       "FN:s medlemsländer har satt upp 17 globala mål för hållbar utveckling.",
@@ -452,9 +457,9 @@ export const questions = [
     question: "Vilket av följande är ett av FN:s globala mål?",
     options: [
       "Ingen fattigdom",
-      "Mer plast i haven",
-      "Ökad överkonsumtion",
-      "Fler kolkraftverk",
+      "Minskad plastanvändning i haven",
+      "Fler arbetstillfällen i industrin",
+      "Ökad ekonomisk tillväxt i alla länder",
     ],
     correctAnswer: "Ingen fattigdom",
     explanation: "Mål 1 är Ingen fattigdom.",
@@ -462,10 +467,10 @@ export const questions = [
   {
     question: "Vad menas med extremväder eller extrema väderhändelser?",
     options: [
-      "Vanligt väder som alltid ser likadant ut",
       "Ovanligt kraftigt eller farligt väder som skapar stora problem",
-      "Lite duggregn på sommaren",
-      "Normalt vinterväder",
+      "Väder som skiljer sig mycket från det normala under en årstid",
+      "Väder som orsakar stora skador på natur och samhälle",
+      "Väder som blir farligt när människor inte är förberedda",
     ],
     correctAnswer:
       "Ovanligt kraftigt eller farligt väder som skapar stora problem",
@@ -475,10 +480,10 @@ export const questions = [
   {
     question: "Vad kan en värmebölja leda till?",
     options: [
-      "Mer is på marken",
       "Torka och större risk för skogsbränder",
-      "Att havet fryser",
-      "Mindre behov av vatten",
+      "Vattenbrist och sämre skördar",
+      "Högre belastning på människor, djur och natur",
+      "Lägre grundvattennivåer i torra områden",
     ],
     correctAnswer: "Torka och större risk för skogsbränder",
     explanation: "Långvarig värme kan göra marken torr och öka brandrisken.",
@@ -486,10 +491,10 @@ export const questions = [
   {
     question: "Vad är skyfall?",
     options: [
-      "Lite regn under lång tid",
       "Mycket regn på kort tid",
-      "Snö som faller snabbt",
-      "Dimma över havet",
+      "Kraftigt regn som leder till översvämning",
+      "Regn som faller så snabbt att marken inte hinner suga upp vattnet",
+      "Ovanligt stora mängder nederbörd under ett dygn",
     ],
     correctAnswer: "Mycket regn på kort tid",
     explanation: "Skyfall kan orsaka översvämningar och stora skador.",
@@ -497,10 +502,10 @@ export const questions = [
   {
     question: "Hur kan skyfall påverka människor och samhällen?",
     options: [
-      "Det gör alltid jorden bördigare",
       "Det kan orsaka översvämningar och smutsigt vatten som gör människor sjuka",
-      "Det påverkar bara fiskar",
-      "Det gör att vägar blir bättre",
+      "Det kan slå ut vägar, avlopp och annan viktig infrastruktur",
+      "Det kan förstöra byggnader och göra marken instabil",
+      "Det kan sprida föroreningar till bostadsområden och vattendrag",
     ],
     correctAnswer:
       "Det kan orsaka översvämningar och smutsigt vatten som gör människor sjuka",
@@ -511,9 +516,9 @@ export const questions = [
     question: "Hur kan tropiska orkaner och stormar påverka människor?",
     options: [
       "De kan förstöra hus och infrastruktur och orsaka stora skador",
-      "De gör att alla skördar blir bättre",
-      "De påverkar bara havet",
-      "De stoppar klimatförändringar",
+      "De kan leda till översvämningar, elavbrott och förstörda skördar",
+      "De kan göra att människor måste lämna sina hem under lång tid",
+      "De kan slå ut transporter och samhällsviktiga funktioner",
     ],
     correctAnswer:
       "De kan förstöra hus och infrastruktur och orsaka stora skador",
