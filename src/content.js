@@ -1,6 +1,11 @@
 import { questions as geographyQuestions } from "./questions.js";
 
-export const sectionOrder = ["geography", "swedish-b1", "swedish-c1"];
+export const sectionOrder = [
+  "geography",
+  "english-b",
+  "swedish-b1",
+  "swedish-c1"
+];
 
 export const sections = {
   geography: {
@@ -8,7 +13,7 @@ export const sections = {
     type: "quiz",
     eyebrow: "Geografi-quiz",
     title: "Geografikollen",
-    homeTitle: "Geografi-quiz",
+    homeTitle: "Geografi quiz",
     homeDescription:
       "Träna naturresurser, vatten, skog och hållbar utveckling med en fråga i taget.",
     description:
@@ -27,6 +32,233 @@ export const sections = {
     shuffleQuestions: true,
     shuffleOptions: true,
     questions: geographyQuestions
+  },
+  "english-b": {
+    id: "english-b",
+    type: "quiz",
+    eyebrow: "Engelska delprov B",
+    title: "Nationella prov åk 6 - Engelska delprov B",
+    homeTitle: "Engelska delprov B",
+    homeDescription:
+      "Läs korta engelska texter, svara på frågor och träna inför delprov B.",
+    description:
+      "Läs en kort engelsk text och svara på en fråga i taget. Efter varje svar får du direkt feedback och en svensk förklaring.",
+    quizDescription:
+      "Läs texten noggrant och välj det svar som passar bäst.",
+    startLabel: "Starta engelska-quizet",
+    resultTitle: "Engelska delprov B klart",
+    resultMessages: {
+      perfect: "Mycket stark läsförståelse. Du hittade rätt svar på alla frågor.",
+      strong: "Bra jobbat! Du läser engelska texter säkert och noggrant.",
+      okay: "Du är på god väg. Fortsätt öva på att hitta viktiga detaljer i texten.",
+      retry: "Börja om och läs lugnt en gång till. Då blir det lättare att hitta rätt svar."
+    },
+    highlights: ["10 korta texter", "10 frågor", "Direkt feedback"],
+    shuffleQuestions: false,
+    shuffleOptions: false,
+    texts: [
+      {
+        title: "Class Trip",
+        paragraphs: [
+          "Hello class! On Friday we are going to the Science Museum in Linkoping. We will leave school at 8:15 and come back at 14:30. Please bring a packed lunch, a water bottle and comfortable shoes. Remember your bus card."
+        ],
+        questions: [
+          {
+            question: "What should students bring to eat?",
+            options: [
+              "A packed lunch",
+              "A sandwich from the museum",
+              "A cake from home",
+              "A hot meal from school"
+            ],
+            correctAnswer: "A packed lunch",
+            explanation:
+              "I texten står det tydligt att eleverna ska ta med sig en packed lunch."
+          }
+        ]
+      },
+      {
+        title: "Book Club",
+        paragraphs: [
+          "The school library has a book club every Tuesday at 3:30. This week students will talk about adventure books and make a new book cover. Everyone who joins gets fruit and juice after the meeting."
+        ],
+        questions: [
+          {
+            question: "What will students discuss this week?",
+            options: [
+              "Adventure books",
+              "Science magazines",
+              "New films",
+              "Sports news"
+            ],
+            correctAnswer: "Adventure books",
+            explanation:
+              "Rätt svar är adventure books eftersom det står att eleverna ska prata om adventure books den här veckan."
+          }
+        ]
+      },
+      {
+        title: "Email from Mia",
+        paragraphs: [
+          "Hi Sam! I am staying at Grandpa's farm until Sunday. On Saturday morning I will help feed the chickens. After lunch Grandpa wants to take us to the lake to fish. Can you come at 1 o'clock?"
+        ],
+        questions: [
+          {
+            question: "What does Grandpa want to do after lunch?",
+            options: [
+              "Go to the lake to fish",
+              "Feed the chickens",
+              "Bake a cake",
+              "Visit the town"
+            ],
+            correctAnswer: "Go to the lake to fish",
+            explanation:
+              "I mejlet står det att Grandpa vill ta med dem till sjön för att fiska efter lunch."
+          }
+        ]
+      },
+      {
+        title: "Weather Report",
+        paragraphs: [
+          "Tomorrow morning will be rainy and windy, but in the afternoon the sun will come out. The temperature will be between 12 and 18 degrees. It will be good weather for outdoor games after school."
+        ],
+        questions: [
+          {
+            question: "When will the weather be best for outdoor games?",
+            options: [
+              "In the afternoon",
+              "Early in the morning",
+              "At lunchtime",
+              "Late at night"
+            ],
+            correctAnswer: "In the afternoon",
+            explanation:
+              "Texten säger att solen kommer fram på eftermiddagen och att det blir bra väder för utomhuslekar efter skolan."
+          }
+        ]
+      },
+      {
+        title: "Lost Cat",
+        paragraphs: [
+          "Have you seen Pepper? Pepper is a small grey and white cat with a green collar. She was last seen near the sports hall on Monday evening. If you see her, please call 070-123 45 67."
+        ],
+        questions: [
+          {
+            question: "Where was Pepper last seen?",
+            options: [
+              "Near the sports hall",
+              "At the bus stop",
+              "In the school library",
+              "By the lake"
+            ],
+            correctAnswer: "Near the sports hall",
+            explanation:
+              "Rätt svar är near the sports hall eftersom det står att katten senast sågs där på måndagskvällen."
+          }
+        ]
+      },
+      {
+        title: "Cafe Menu",
+        paragraphs: [
+          "Sunshine Cafe Menu: Tomato soup 45 kr. Chicken sandwich 58 kr. Pancakes with jam 42 kr. Apple juice 18 kr. Chocolate milk 20 kr."
+        ],
+        questions: [
+          {
+            question: "What is the cheapest food on the menu?",
+            options: [
+              "Pancakes with jam",
+              "Tomato soup",
+              "Chicken sandwich",
+              "Apple juice"
+            ],
+            correctAnswer: "Pancakes with jam",
+            explanation:
+              "Apple juice är billigast totalt, men frågan gäller food. Bland maträtterna kostar Pancakes with jam minst."
+          }
+        ]
+      },
+      {
+        title: "Drama Club",
+        paragraphs: [
+          "The drama club starts next week. Group A meets on Monday at 15:00. Group B meets on Thursday at 15:00. New students must sign up before Friday if they want to join the first practice."
+        ],
+        questions: [
+          {
+            question: "When does Group B meet?",
+            options: [
+              "Thursday at 15:00",
+              "Monday at 15:00",
+              "Friday at 15:00",
+              "Thursday at 10:00"
+            ],
+            correctAnswer: "Thursday at 15:00",
+            explanation:
+              "I texten står att Group B träffas på torsdag klockan 15:00."
+          }
+        ]
+      },
+      {
+        title: "Green Day",
+        paragraphs: [
+          "Come to Green Day on 5 May in the school yard. You can sell old toys, swap books and learn how to recycle at home. The event starts at 10:00 and entrance is free."
+        ],
+        questions: [
+          {
+            question: "What can visitors learn about?",
+            options: [
+              "How to recycle at home",
+              "How to cook lunch",
+              "How to draw posters",
+              "How to play football"
+            ],
+            correctAnswer: "How to recycle at home",
+            explanation:
+              "Rätt svar är how to recycle at home eftersom det står att besökare kan lära sig det på Green Day."
+          }
+        ]
+      },
+      {
+        title: "Presentation Day",
+        paragraphs: [
+          "I was nervous before my class presentation, and my hands felt cold. But when I started speaking, my classmates smiled and listened carefully. After the lesson, my teacher said I had spoken clearly and used good examples."
+        ],
+        questions: [
+          {
+            question: "How did the writer probably feel after the presentation?",
+            options: [
+              "Proud and calmer",
+              "Angry and upset",
+              "Bored and tired",
+              "Hungry and stressed"
+            ],
+            correctAnswer: "Proud and calmer",
+            explanation:
+              "Det står inte exakt, men eftersom klasskamraterna lyssnade och läraren gav beröm förstår man att skribenten troligen kände sig lugnare och stolt."
+          }
+        ]
+      },
+      {
+        title: "Homework Note",
+        paragraphs: [
+          "Please read pages 14 to 19 before Thursday. Then answer the questions in your workbook. If you finish early, write three sentences about your favorite character in the story."
+        ],
+        questions: [
+          {
+            question: "What should students do if they finish early?",
+            options: [
+              "Write three sentences about their favorite character",
+              "Read pages 1 to 3 again",
+              "Ask the teacher for a new book",
+              "Go home before the lesson ends"
+            ],
+            correctAnswer:
+              "Write three sentences about their favorite character",
+            explanation:
+              "I instruktionen står att elever som blir klara tidigt ska skriva tre meningar om sin favoritkaraktär."
+          }
+        ]
+      }
+    ]
   },
   "swedish-b1": {
     id: "swedish-b1",

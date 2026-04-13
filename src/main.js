@@ -272,8 +272,9 @@ function renderHomeScreen() {
           <p class="eyebrow">Startsida</p>
           <h1 class="title">Öva inför prov</h1>
           <p class="description">
-            Välj den del du vill träna på. Geografi och Svenska B1 är interaktiva
-            övningar, medan Svenska C1 ger tydligt skrivstöd för berättelser.
+            Välj den del du vill träna på. Geografi, Engelska delprov B och
+            Svenska B1 är interaktiva övningar, medan Svenska C1 ger skrivstöd
+            för berättelser.
           </p>
         </article>
 
