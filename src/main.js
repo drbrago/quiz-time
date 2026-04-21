@@ -272,9 +272,9 @@ function renderHomeScreen() {
           <p class="eyebrow">Startsida</p>
           <h1 class="title">Öva inför prov</h1>
           <p class="description">
-            Välj den del du vill träna på. Geografi, Engelska delprov B och
-            Svenska B1 är interaktiva övningar, medan Svenska C1 ger skrivstöd
-            för berättelser.
+            Välj den del du vill träna på. Geografi, Engelska delprov B,
+            Svenska B1 och Biologi är interaktiva övningar, medan Svenska C1
+            ger skrivstöd för berättelser.
           </p>
         </article>
 
@@ -282,6 +282,31 @@ function renderHomeScreen() {
           ${renderHomeCards()}
         </div>
       </div>
+    </section>
+  `;
+}
+
+function renderResources(section) {
+  if (!section.resources || !section.resources.length) {
+    return "";
+  }
+
+  return `
+    <section class="preview-block">
+      <h2 class="section-title">Studiematerial</h2>
+      <ul class="resource-list">
+        ${section.resources
+          .map(
+            (resource) => `
+              <li>
+                <a class="resource-link" href="${escapeHtml(resource.url)}" target="_blank" rel="noopener noreferrer">
+                  ${escapeHtml(resource.label)}
+                </a>
+              </li>
+            `
+          )
+          .join("")}
+      </ul>
     </section>
   `;
 }
@@ -321,6 +346,7 @@ function renderIntroScreen(section) {
           <p class="description">${escapeHtml(section.description)}</p>
           ${renderPills(section.highlights, "meta-row", "meta-pill")}
           ${renderTextPreview(section)}
+          ${renderResources(section)}
 
           <div class="actions actions--wrap actions--center">
             <button class="button" type="button" data-action="start-quiz">

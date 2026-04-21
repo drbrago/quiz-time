@@ -4,7 +4,8 @@ export const sectionOrder = [
   "geography",
   "english-b",
   "swedish-b1",
-  "swedish-c1"
+  "swedish-c1",
+  "biology-evolution"
 ];
 
 export const sections = {
@@ -457,6 +458,226 @@ export const sections = {
               "Texten har en stillsam ton och antyder minnen och känslor."
           }
         ]
+      }
+    ]
+  },
+  "biology-evolution": {
+    id: "biology-evolution",
+    type: "quiz",
+    eyebrow: "Biologi – Evolution",
+    title: "Biologi – Evolution",
+    homeTitle: "Biologi – Evolution",
+    homeDescription:
+      "Öva på population, naturligt urval, fossil och Darwins evolutionsteori med en fråga i taget.",
+    description:
+      "Öva på biologifrågor om evolution på svenska. Du får en fråga i taget, direkt feedback och en förklaring till rätt svar.",
+    quizDescription:
+      "Svara på en fråga i taget och håll koll på din poäng under hela quizet.",
+    startLabel: "Starta biologi-quizet",
+    resultTitle: "Biologi-quiz klart",
+    resultMessages: {
+      perfect: "Fantastiskt! Du hade koll på varje fråga om evolution.",
+      strong: "Snyggt jobbat! Du kan redan mycket om biologi och evolution.",
+      okay: "Bra kämpat! Du är på god väg och kan träna vidare.",
+      retry: "Fortsätt öva så kommer du snart att känna igen ännu fler begrepp."
+    },
+    highlights: ["14 frågor", "Direkt feedback", "Poängräkning"],
+    shuffleQuestions: true,
+    shuffleOptions: true,
+    resources: [
+      {
+        label: "Om evolution: Charles och arternas uppkomst",
+        url: "https://sliplay.se/medioteket/play/products/847938-om-evolution-charles-och-arternas-uppkomst"
+      },
+      {
+        label: "Om evolution: Variation och sköldpaddor",
+        url: "https://sliplay.se/medioteket/play/products/847937-om-evolution-variation-och-skoldpaddor"
+      },
+      {
+        label: "Om evolution: Konkurrens och ödlor",
+        url: "https://sliplay.se/medioteket/play/products/847936-om-evolution-konkurrens-och-odlor"
+      },
+      {
+        label: "Om evolution: Galapagos och snygga hanar",
+        url: "https://sliplay.se/medioteket/play/products/847935-om-evolution-galapagos-och-snygga-hanar"
+      },
+      {
+        label: "Om evolution: Dinosaurier, tid och fossil",
+        url: "https://sliplay.se/medioteket/play/products/847933-om-evolution-dinosaurier-tid-och-fossil"
+      }
+    ],
+    questions: [
+      {
+        question: "Vad är en population?",
+        options: [
+          "Alla levande varelser på jorden",
+          "En grupp individer av samma art som lever i samma område",
+          "Ett land med många invånare",
+          "Alla djur i en skog"
+        ],
+        correctAnswer: "En grupp individer av samma art som lever i samma område",
+        explanation:
+          "En population består av individer av samma art som lever inom samma geografiska område och kan föröka sig med varandra."
+      },
+      {
+        question: "Vad är en art?",
+        options: [
+          "Alla djur som ser likadana ut",
+          "Organismer som kan föröka sig med varandra och få fruktsamt avkomma",
+          "Djur som bor i samma habitat",
+          "Organismer som äter samma mat"
+        ],
+        correctAnswer: "Organismer som kan föröka sig med varandra och få fruktsamt avkomma",
+        explanation:
+          "En art definieras som en grupp organismer som kan para sig med varandra och få avkomma som i sin tur kan föröka sig."
+      },
+      {
+        question: "Vad är en hybrid?",
+        options: [
+          "En organism som lever både på land och i vatten",
+          "Avkomma från föräldrar av två olika arter",
+          "En art som har anpassat sig till en ny miljö",
+          "En organism som förökar sig utan partner"
+        ],
+        correctAnswer: "Avkomma från föräldrar av två olika arter",
+        explanation:
+          "En hybrid är avkomman av två individer från olika arter, till exempel en mula som är korsningen mellan en häst och en åsna. Hybrider är ofta sterila."
+      },
+      {
+        question: "Vad har alla levande organismer gemensamt när det gäller celler?",
+        options: [
+          "De har alla en cellkärna",
+          "De är alla uppbyggda av celler",
+          "De har alla kloroplaster",
+          "De har alla cellvägg"
+        ],
+        correctAnswer: "De är alla uppbyggda av celler",
+        explanation:
+          "Alla levande organismer – från bakterier till människor – är uppbyggda av celler. Det är en av de grundläggande egenskaperna hos allt liv."
+      },
+      {
+        question: "Vad är skillnaden mellan en växtcell och en djurcell?",
+        options: [
+          "Djurceller har cellkärna, växtceller har inte det",
+          "Växtceller har cellvägg och kloroplaster, djurceller saknar det",
+          "Växtceller är alltid större än djurceller",
+          "Djurceller kan inte föröka sig"
+        ],
+        correctAnswer: "Växtceller har cellvägg och kloroplaster, djurceller saknar det",
+        explanation:
+          "Växtceller har cellvägg (av cellulosa) och kloroplaster som används vid fotosyntes. Djurceller saknar båda dessa strukturer."
+      },
+      {
+        question: "Vad innebär det naturliga urvalet?",
+        options: [
+          "Att människan väljer vilka djur som får föröka sig",
+          "Att de individer som är bäst anpassade till sin miljö har störst chans att överleva och föröka sig",
+          "Att alla individer i en population överlever lika länge",
+          "Att miljön förändras för att passa djuren"
+        ],
+        correctAnswer:
+          "Att de individer som är bäst anpassade till sin miljö har störst chans att överleva och föröka sig",
+        explanation:
+          "Det naturliga urvalet är kärnan i Darwins evolutionsteori. Individer med fördelaktiga egenskaper överlever bättre och för vidare sina gener till nästa generation."
+      },
+      {
+        question: "Vad är evolution?",
+        options: [
+          "Att ett djur förändras under sin livstid",
+          "Att arter förändras över många generationer genom naturligt urval",
+          "Att en individ tränar upp sina muskler",
+          "Att arter skapas av människan"
+        ],
+        correctAnswer: "Att arter förändras över många generationer genom naturligt urval",
+        explanation:
+          "Evolution är den process där ärftliga egenskaper i en population förändras över generationer, drivet av bland annat naturligt urval, mutation och slump."
+      },
+      {
+        question: "Hur såg jorden ut när den skapades – vad kallas den ursprungliga superkontinenten?",
+        options: [
+          "Atlantis",
+          "Gondwana",
+          "Pangea",
+          "Laurasia"
+        ],
+        correctAnswer: "Pangea",
+        explanation:
+          "För ungefär 300 miljoner år sedan var alla kontinenter sammankopplade i en enda superkontinent som kallas Pangea. Den bröts sedan upp av kontinentalplattornas rörelser."
+      },
+      {
+        question: "Vilka var de första organismerna på jorden?",
+        options: [
+          "Dinosaurier",
+          "Bakterier",
+          "Alger",
+          "Insekter"
+        ],
+        correctAnswer: "Bakterier",
+        explanation:
+          "De första livsformerna på jorden var enkla encelliga organismer – bakterier – som uppstod för ungefär 3,5 miljarder år sedan."
+      },
+      {
+        question: "Vad är ett fossil?",
+        options: [
+          "En levande organism som är mycket gammal",
+          "Lämningar eller spår av forntida organismer som bevarats i berggrund",
+          "En sten som liknar ett djur",
+          "Ett djur som är utrotat"
+        ],
+        correctAnswer: "Lämningar eller spår av forntida organismer som bevarats i berggrund",
+        explanation:
+          "Fossil är rester av eller avtryck från organismer som levde för länge sedan. De bildas när organismen täcks av sediment som med tiden hårdnar till sten."
+      },
+      {
+        question: "Hur bildas ett fossil?",
+        options: [
+          "Djuret fryser in och bevaras i is för evigt",
+          "Organismen täcks av sediment, mjukdelarna bryts ner och hårda delar mineraliseras över lång tid",
+          "Djuret begravs i sand och blir till guld",
+          "Organismen torkar ut och bevaras i sin ursprungliga form"
+        ],
+        correctAnswer:
+          "Organismen täcks av sediment, mjukdelarna bryts ner och hårda delar mineraliseras över lång tid",
+        explanation:
+          "Fossilbildning sker när en organism täcks av sediment (t.ex. lera eller sand). Mjukdelar bryts ner, men ben och skal kan mineraliseras och bevaras i miljoner år."
+      },
+      {
+        question: "Vem var Charles Darwin och vad är han känd för?",
+        options: [
+          "En fransk kemist som uppfann det periodiska systemet",
+          "En brittisk naturvetare som formulerade teorin om evolution genom naturligt urval",
+          "En tysk fysiker som beskrev relativitetsteorin",
+          "En svensk botaniker som namngav alla växter"
+        ],
+        correctAnswer:
+          "En brittisk naturvetare som formulerade teorin om evolution genom naturligt urval",
+        explanation:
+          "Charles Darwin (1809–1882) var en brittisk naturvetare som efter sin berömda resa med HMS Beagle formulerade evolutionsteorin. Hans bok 'Om arternas uppkomst' från 1859 är ett av vetenskapens viktigaste verk."
+      },
+      {
+        question: "Hur kan naturligt urval förändra ett djurs utseende över generationer?",
+        options: [
+          "Djuret bestämmer själv hur det vill se ut",
+          "Individer med fördelaktiga egenskaper förökar sig mer, och egenskaperna sprids i populationen",
+          "Miljön injicerar nya gener i djuret",
+          "Alla individer muterar slumpmässigt varje generation"
+        ],
+        correctAnswer:
+          "Individer med fördelaktiga egenskaper förökar sig mer, och egenskaperna sprids i populationen",
+        explanation:
+          "Om en egenskap – t.ex. en viss pälsfärg eller näbbform – ger överlevnadsfördel, förökar sig de individerna mer. Över många generationer blir egenskapen vanligare i populationen."
+      },
+      {
+        question: "Vad menas med variation i en population?",
+        options: [
+          "Att alla individer ser exakt likadana ut",
+          "Att individer inom samma art skiljer sig åt i egenskaper",
+          "Att populationen byter art",
+          "Att populationen minskar i antal"
+        ],
+        correctAnswer: "Att individer inom samma art skiljer sig åt i egenskaper",
+        explanation:
+          "Variation innebär att individer inom en population har olika egenskaper, t.ex. olika storlek, färg eller motståndskraft mot sjukdom. Variationen är grunden för att naturligt urval ska kunna ske."
       }
     ]
   },
