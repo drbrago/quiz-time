@@ -5,7 +5,7 @@ export const sectionOrder = [
   "english-b",
   "swedish-b1",
   "swedish-c1",
-  "biology-evolution"
+  "biology-evolution",
 ];
 
 export const sections = {
@@ -27,12 +27,13 @@ export const sections = {
       perfect: "Fantastiskt! Du hade koll på varje fråga.",
       strong: "Snyggt jobbat! Du kan redan mycket geografi.",
       okay: "Bra kämpat! Du är på god väg och kan träna vidare.",
-      retry: "Fortsätt öva så kommer du snart att känna igen ännu fler platser."
+      retry:
+        "Fortsätt öva så kommer du snart att känna igen ännu fler platser.",
     },
     highlights: ["En fråga i taget", "Direkt feedback", "Poängräkning"],
     shuffleQuestions: true,
     shuffleOptions: true,
-    questions: geographyQuestions
+    questions: geographyQuestions,
   },
   "english-b": {
     id: "english-b",
@@ -44,15 +45,16 @@ export const sections = {
       "Läs korta engelska texter, svara på frågor och träna inför delprov B.",
     description:
       "Läs en kort engelsk text och svara på en fråga i taget. Efter varje svar får du direkt feedback och en svensk förklaring.",
-    quizDescription:
-      "Läs texten noggrant och välj det svar som passar bäst.",
+    quizDescription: "Läs texten noggrant och välj det svar som passar bäst.",
     startLabel: "Starta engelska-quizet",
     resultTitle: "Engelska delprov B klart",
     resultMessages: {
-      perfect: "Mycket stark läsförståelse. Du hittade rätt svar på alla frågor.",
+      perfect:
+        "Mycket stark läsförståelse. Du hittade rätt svar på alla frågor.",
       strong: "Bra jobbat! Du läser engelska texter säkert och noggrant.",
       okay: "Du är på god väg. Fortsätt öva på att hitta viktiga detaljer i texten.",
-      retry: "Börja om och läs lugnt en gång till. Då blir det lättare att hitta rätt svar."
+      retry:
+        "Börja om och läs lugnt en gång till. Då blir det lättare att hitta rätt svar.",
     },
     highlights: ["10 korta texter", "10 frågor", "Direkt feedback"],
     shuffleQuestions: false,
@@ -61,7 +63,7 @@ export const sections = {
       {
         title: "Class Trip",
         paragraphs: [
-          "Hello class! On Friday we are going to the Science Museum in Linkoping. We will leave school at 8:15 and come back at 14:30. Please bring a packed lunch, a water bottle and comfortable shoes. Remember your bus card."
+          "Hello class! On Friday we are going to the Science Museum in Linkoping. We will leave school at 8:15 and come back at 14:30. Please bring a packed lunch, a water bottle and comfortable shoes. Remember your bus card.",
         ],
         questions: [
           {
@@ -70,18 +72,18 @@ export const sections = {
               "A packed lunch",
               "A sandwich from the museum",
               "A cake from home",
-              "A hot meal from school"
+              "A hot meal from school",
             ],
             correctAnswer: "A packed lunch",
             explanation:
-              "I texten står det tydligt att eleverna ska ta med sig en packed lunch."
-          }
-        ]
+              "I texten står det tydligt att eleverna ska ta med sig en packed lunch.",
+          },
+        ],
       },
       {
         title: "Book Club",
         paragraphs: [
-          "The school library has a book club every Tuesday at 3:30. This week students will talk about adventure books and make a new book cover. Everyone who joins gets fruit and juice after the meeting."
+          "The school library has a book club every Tuesday at 3:30. This week students will talk about adventure books and make a new book cover. Everyone who joins gets fruit and juice after the meeting.",
         ],
         questions: [
           {
@@ -90,18 +92,18 @@ export const sections = {
               "Adventure books",
               "Science magazines",
               "New films",
-              "Sports news"
+              "Sports news",
             ],
             correctAnswer: "Adventure books",
             explanation:
-              "Rätt svar är adventure books eftersom det står att eleverna ska prata om adventure books den här veckan."
-          }
-        ]
+              "Rätt svar är adventure books eftersom det står att eleverna ska prata om adventure books den här veckan.",
+          },
+        ],
       },
       {
         title: "Email from Mia",
         paragraphs: [
-          "Hi Sam! I am staying at Grandpa's farm until Sunday. On Saturday morning I will help feed the chickens. After lunch Grandpa wants to take us to the lake to fish. Can you come at 1 o'clock?"
+          "Hi Sam! I am staying at Grandpa's farm until Sunday. On Saturday morning I will help feed the chickens. After lunch Grandpa wants to take us to the lake to fish. Can you come at 1 o'clock?",
         ],
         questions: [
           {
@@ -110,18 +112,18 @@ export const sections = {
               "Go to the lake to fish",
               "Feed the chickens",
               "Bake a cake",
-              "Visit the town"
+              "Visit the town",
             ],
             correctAnswer: "Go to the lake to fish",
             explanation:
-              "I mejlet står det att Grandpa vill ta med dem till sjön för att fiska efter lunch."
-          }
-        ]
+              "I mejlet står det att Grandpa vill ta med dem till sjön för att fiska efter lunch.",
+          },
+        ],
       },
       {
         title: "Weather Report",
         paragraphs: [
-          "Tomorrow morning will be rainy and windy, but in the afternoon the sun will come out. The temperature will be between 12 and 18 degrees. It will be good weather for outdoor games after school."
+          "Tomorrow morning will be rainy and windy, but in the afternoon the sun will come out. The temperature will be between 12 and 18 degrees. It will be good weather for outdoor games after school.",
         ],
         questions: [
           {
@@ -130,18 +132,18 @@ export const sections = {
               "In the afternoon",
               "Early in the morning",
               "At lunchtime",
-              "Late at night"
+              "Late at night",
             ],
             correctAnswer: "In the afternoon",
             explanation:
-              "Texten säger att solen kommer fram på eftermiddagen och att det blir bra väder för utomhuslekar efter skolan."
-          }
-        ]
+              "Texten säger att solen kommer fram på eftermiddagen och att det blir bra väder för utomhuslekar efter skolan.",
+          },
+        ],
       },
       {
         title: "Lost Cat",
         paragraphs: [
-          "Have you seen Pepper? Pepper is a small grey and white cat with a green collar. She was last seen near the sports hall on Monday evening. If you see her, please call 070-123 45 67."
+          "Have you seen Pepper? Pepper is a small grey and white cat with a green collar. She was last seen near the sports hall on Monday evening. If you see her, please call 070-123 45 67.",
         ],
         questions: [
           {
@@ -150,18 +152,18 @@ export const sections = {
               "Near the sports hall",
               "At the bus stop",
               "In the school library",
-              "By the lake"
+              "By the lake",
             ],
             correctAnswer: "Near the sports hall",
             explanation:
-              "Rätt svar är near the sports hall eftersom det står att katten senast sågs där på måndagskvällen."
-          }
-        ]
+              "Rätt svar är near the sports hall eftersom det står att katten senast sågs där på måndagskvällen.",
+          },
+        ],
       },
       {
         title: "Cafe Menu",
         paragraphs: [
-          "Sunshine Cafe Menu: Tomato soup 45 kr. Chicken sandwich 58 kr. Pancakes with jam 42 kr. Apple juice 18 kr. Chocolate milk 20 kr."
+          "Sunshine Cafe Menu: Tomato soup 45 kr. Chicken sandwich 58 kr. Pancakes with jam 42 kr. Apple juice 18 kr. Chocolate milk 20 kr.",
         ],
         questions: [
           {
@@ -170,18 +172,18 @@ export const sections = {
               "Pancakes with jam",
               "Tomato soup",
               "Chicken sandwich",
-              "Apple juice"
+              "Apple juice",
             ],
             correctAnswer: "Pancakes with jam",
             explanation:
-              "Apple juice är billigast totalt, men frågan gäller food. Bland maträtterna kostar Pancakes with jam minst."
-          }
-        ]
+              "Apple juice är billigast totalt, men frågan gäller food. Bland maträtterna kostar Pancakes with jam minst.",
+          },
+        ],
       },
       {
         title: "Drama Club",
         paragraphs: [
-          "The drama club starts next week. Group A meets on Monday at 15:00. Group B meets on Thursday at 15:00. New students must sign up before Friday if they want to join the first practice."
+          "The drama club starts next week. Group A meets on Monday at 15:00. Group B meets on Thursday at 15:00. New students must sign up before Friday if they want to join the first practice.",
         ],
         questions: [
           {
@@ -190,18 +192,18 @@ export const sections = {
               "Thursday at 15:00",
               "Monday at 15:00",
               "Friday at 15:00",
-              "Thursday at 10:00"
+              "Thursday at 10:00",
             ],
             correctAnswer: "Thursday at 15:00",
             explanation:
-              "I texten står att Group B träffas på torsdag klockan 15:00."
-          }
-        ]
+              "I texten står att Group B träffas på torsdag klockan 15:00.",
+          },
+        ],
       },
       {
         title: "Green Day",
         paragraphs: [
-          "Come to Green Day on 5 May in the school yard. You can sell old toys, swap books and learn how to recycle at home. The event starts at 10:00 and entrance is free."
+          "Come to Green Day on 5 May in the school yard. You can sell old toys, swap books and learn how to recycle at home. The event starts at 10:00 and entrance is free.",
         ],
         questions: [
           {
@@ -210,38 +212,39 @@ export const sections = {
               "How to recycle at home",
               "How to cook lunch",
               "How to draw posters",
-              "How to play football"
+              "How to play football",
             ],
             correctAnswer: "How to recycle at home",
             explanation:
-              "Rätt svar är how to recycle at home eftersom det står att besökare kan lära sig det på Green Day."
-          }
-        ]
+              "Rätt svar är how to recycle at home eftersom det står att besökare kan lära sig det på Green Day.",
+          },
+        ],
       },
       {
         title: "Presentation Day",
         paragraphs: [
-          "I was nervous before my class presentation, and my hands felt cold. But when I started speaking, my classmates smiled and listened carefully. After the lesson, my teacher said I had spoken clearly and used good examples."
+          "I was nervous before my class presentation, and my hands felt cold. But when I started speaking, my classmates smiled and listened carefully. After the lesson, my teacher said I had spoken clearly and used good examples.",
         ],
         questions: [
           {
-            question: "How did the writer probably feel after the presentation?",
+            question:
+              "How did the writer probably feel after the presentation?",
             options: [
               "Proud and calmer",
               "Angry and upset",
               "Bored and tired",
-              "Hungry and stressed"
+              "Hungry and stressed",
             ],
             correctAnswer: "Proud and calmer",
             explanation:
-              "Det står inte exakt, men eftersom klasskamraterna lyssnade och läraren gav beröm förstår man att skribenten troligen kände sig lugnare och stolt."
-          }
-        ]
+              "Det står inte exakt, men eftersom klasskamraterna lyssnade och läraren gav beröm förstår man att skribenten troligen kände sig lugnare och stolt.",
+          },
+        ],
       },
       {
         title: "Homework Note",
         paragraphs: [
-          "Please read pages 14 to 19 before Thursday. Then answer the questions in your workbook. If you finish early, write three sentences about your favorite character in the story."
+          "Please read pages 14 to 19 before Thursday. Then answer the questions in your workbook. If you finish early, write three sentences about your favorite character in the story.",
         ],
         questions: [
           {
@@ -250,16 +253,16 @@ export const sections = {
               "Write three sentences about their favorite character",
               "Read pages 1 to 3 again",
               "Ask the teacher for a new book",
-              "Go home before the lesson ends"
+              "Go home before the lesson ends",
             ],
             correctAnswer:
               "Write three sentences about their favorite character",
             explanation:
-              "I instruktionen står att elever som blir klara tidigt ska skriva tre meningar om sin favoritkaraktär."
-          }
-        ]
-      }
-    ]
+              "I instruktionen står att elever som blir klara tidigt ska skriva tre meningar om sin favoritkaraktär.",
+          },
+        ],
+      },
+    ],
   },
   "swedish-b1": {
     id: "swedish-b1",
@@ -279,7 +282,8 @@ export const sections = {
       perfect: "Mycket stark läsning. Du hittade rätt svar på alla frågor.",
       strong: "Bra läst. Du tolkar både innehåll och stämning säkert.",
       okay: "Du är på god väg. Läs gärna texterna en gång till och försök igen.",
-      retry: "Börja om och läs lugnt mellan raderna. Det blir lättare för varje gång."
+      retry:
+        "Börja om och läs lugnt mellan raderna. Det blir lättare för varje gång.",
     },
     highlights: ["2 texter", "12 frågor", "Direkt feedback"],
     shuffleQuestions: false,
@@ -293,7 +297,7 @@ export const sections = {
           "På rasten försökte Alva fråga vad som hade hänt.",
           "– Ingenting, sa Nora utan att möta hennes blick.",
           "Men Alva trodde inte på det. Nora brukade inte låta så där hård i rösten. Resten av dagen kändes konstig. När sista lektionen var slut gick Nora hem direkt utan att säga hej då.",
-          "På kvällen låg Alva länge vaken. Hon tänkte på hur Nora hade sett ut, nästan som om hon bar på något tungt som hon inte orkade dela med sig av."
+          "På kvällen låg Alva länge vaken. Hon tänkte på hur Nora hade sett ut, nästan som om hon bar på något tungt som hon inte orkade dela med sig av.",
         ],
         questions: [
           {
@@ -302,11 +306,11 @@ export const sections = {
               "Det var varmt och soligt",
               "Det hade regnat och var kallt",
               "Det snöade kraftigt",
-              "Det blåste men var torrt"
+              "Det blåste men var torrt",
             ],
             correctAnswer: "Det hade regnat och var kallt",
             explanation:
-              "I texten står att det hade regnat hela natten och att luften luktade kallt och blött."
+              "I texten står att det hade regnat hela natten och att luften luktade kallt och blött.",
           },
           {
             question: "Vad var ovanligt med Nora på morgonen?",
@@ -314,23 +318,24 @@ export const sections = {
               "Hon hade glömt sin jacka",
               "Hon kom för sent till skolan",
               "Hon vinkade inte till Alva",
-              "Hon pratade med läraren"
+              "Hon pratade med läraren",
             ],
             correctAnswer: "Hon vinkade inte till Alva",
             explanation:
-              "Texten säger att Nora stod vid cykelstället men inte vinkade som hon brukade."
+              "Texten säger att Nora stod vid cykelstället men inte vinkade som hon brukade.",
           },
           {
-            question: "Hur märkte Alva på lektionen att något inte var som vanligt?",
+            question:
+              "Hur märkte Alva på lektionen att något inte var som vanligt?",
             options: [
               "Nora skrattade högt hela tiden",
               "Nora ville gå hem tidigare",
               "Nora var tyst och ville arbeta ensam",
-              "Nora hade glömt sina böcker"
+              "Nora hade glömt sina böcker",
             ],
             correctAnswer: "Nora var tyst och ville arbeta ensam",
             explanation:
-              "Nora brukade räcka upp handen men var nu tyst och ville jobba ensam."
+              "Nora brukade räcka upp handen men var nu tyst och ville jobba ensam.",
           },
           {
             question: 'Vad menas med att Nora "inte mötte hennes blick"?',
@@ -338,10 +343,10 @@ export const sections = {
               "Hon såg rakt på Alva",
               "Hon tittade inte på Alva",
               "Hon gick fram till Alva",
-              "Hon log mot Alva"
+              "Hon log mot Alva",
             ],
             correctAnswer: "Hon tittade inte på Alva",
-            explanation: "Uttrycket betyder att Nora undvek ögonkontakt."
+            explanation: "Uttrycket betyder att Nora undvek ögonkontakt.",
           },
           {
             question: "Vad förstår man mellan raderna om Nora?",
@@ -349,11 +354,11 @@ export const sections = {
               "Hon är arg för att det regnar",
               "Hon är antagligen ledsen eller orolig",
               "Hon vill byta skola direkt",
-              "Hon tycker inte om lektioner längre"
+              "Hon tycker inte om lektioner längre",
             ],
             correctAnswer: "Hon är antagligen ledsen eller orolig",
             explanation:
-              "Det står inte rakt ut, men hennes beteende visar att något känns tungt."
+              "Det står inte rakt ut, men hennes beteende visar att något känns tungt.",
           },
           {
             question: "Varför låg Alva vaken på kvällen?",
@@ -361,13 +366,13 @@ export const sections = {
               "Hon hade ont i magen",
               "Hon var rädd för mörkret",
               "Hon tänkte på Nora och att något verkade fel",
-              "Hon hade mycket läxor"
+              "Hon hade mycket läxor",
             ],
             correctAnswer: "Hon tänkte på Nora och att något verkade fel",
             explanation:
-              "I slutet står det att Alva tänkte på hur Nora såg ut och att hon verkade bära på något tungt."
-          }
-        ]
+              "I slutet står det att Alva tänkte på hur Nora såg ut och att hon verkade bära på något tungt.",
+          },
+        ],
       },
       {
         title: "Farfars låda",
@@ -383,7 +388,7 @@ export const sections = {
           "Han tog upp brevet men vek inte ut det. I stället höll han det bara i handen, som om pappret kunde gå sönder av minsta rörelse. Sam ville fråga mer, men något i farfars ansikte fick honom att vara tyst.",
           "När farfar till slut la tillbaka brevet i lådan hade solen hunnit klättra upp över träden utanför fönstret.",
           "– En annan dag kanske jag berättar, sa han.",
-          "Sam nickade. Han förstod att vissa historier måste få vänta."
+          "Sam nickade. Han förstod att vissa historier måste få vänta.",
         ],
         questions: [
           {
@@ -392,11 +397,11 @@ export const sections = {
               "En gammal bok",
               "En trälåda",
               "En ryggsäck",
-              "En metallväska"
+              "En metallväska",
             ],
             correctAnswer: "En trälåda",
             explanation:
-              "I början av texten står det att det låg en gammal trälåda framför farfar."
+              "I början av texten står det att det låg en gammal trälåda framför farfar.",
           },
           {
             question: "Hur beskrivs lådan?",
@@ -404,11 +409,11 @@ export const sections = {
               "Ljus och rund",
               "Röd och liten",
               "Mörk med ett metallhandtag",
-              "Stor och genomskinlig"
+              "Stor och genomskinlig",
             ],
             correctAnswer: "Mörk med ett metallhandtag",
             explanation:
-              "Texten beskriver lådan som mörk, nästan svart, med ett litet metallhandtag."
+              "Texten beskriver lådan som mörk, nästan svart, med ett litet metallhandtag.",
           },
           {
             question: "Vad fanns i lådan?",
@@ -416,22 +421,23 @@ export const sections = {
               "Pengar och nycklar",
               "Fotografier, ett fickur och ett brev",
               "Kläder och böcker",
-              "Kartor och pennor"
+              "Kartor och pennor",
             ],
             correctAnswer: "Fotografier, ett fickur och ett brev",
-            explanation: "Det står tydligt vad som låg i lådan."
+            explanation: "Det står tydligt vad som låg i lådan.",
           },
           {
-            question: 'Vad menas med meningen "Från en tid då allt skulle börja"?',
+            question:
+              'Vad menas med meningen "Från en tid då allt skulle börja"?',
             options: [
               "Farfar menar att han skulle börja städa",
               "Farfar tänker på en viktig tid tidigt i livet",
               "Farfar menar att dagen precis hade börjat",
-              "Farfar syftar på att Sam skulle börja skolan"
+              "Farfar syftar på att Sam skulle börja skolan",
             ],
             correctAnswer: "Farfar tänker på en viktig tid tidigt i livet",
             explanation:
-              "Meningen syftar på en tidigare period i livet som betydde mycket."
+              "Meningen syftar på en tidigare period i livet som betydde mycket.",
           },
           {
             question: "Varför frågar Sam inte mer?",
@@ -439,11 +445,11 @@ export const sections = {
               "Han blev arg",
               "Han blev trött",
               "Han märkte att farfar blev känslosam",
-              "Han hörde att någon ringde på dörren"
+              "Han hörde att någon ringde på dörren",
             ],
             correctAnswer: "Han märkte att farfar blev känslosam",
             explanation:
-              "Texten visar att något i farfars ansikte fick Sam att vara tyst."
+              "Texten visar att något i farfars ansikte fick Sam att vara tyst.",
           },
           {
             question: "Vad är textens stämning?",
@@ -451,15 +457,15 @@ export const sections = {
               "Busig och skämtsam",
               "Stressig och högljudd",
               "Lugn och lite sorgsen eller eftertänksam",
-              "Arg och hotfull"
+              "Arg och hotfull",
             ],
             correctAnswer: "Lugn och lite sorgsen eller eftertänksam",
             explanation:
-              "Texten har en stillsam ton och antyder minnen och känslor."
-          }
-        ]
-      }
-    ]
+              "Texten har en stillsam ton och antyder minnen och känslor.",
+          },
+        ],
+      },
+    ],
   },
   "biology-evolution": {
     id: "biology-evolution",
@@ -479,7 +485,8 @@ export const sections = {
       perfect: "Fantastiskt! Du hade koll på varje fråga om evolution.",
       strong: "Snyggt jobbat! Du kan redan mycket om biologi och evolution.",
       okay: "Bra kämpat! Du är på god väg och kan träna vidare.",
-      retry: "Fortsätt öva så kommer du snart att känna igen ännu fler begrepp."
+      retry:
+        "Fortsätt öva så kommer du snart att känna igen ännu fler begrepp.",
     },
     highlights: ["14 frågor", "Direkt feedback", "Poängräkning"],
     shuffleQuestions: true,
@@ -487,199 +494,190 @@ export const sections = {
     resources: [
       {
         label: "Om evolution: Charles och arternas uppkomst",
-        url: "https://sliplay.se/medioteket/play/products/847938-om-evolution-charles-och-arternas-uppkomst"
+        url: "https://sliplay.se/medioteket/play/products/847938-om-evolution-charles-och-arternas-uppkomst",
       },
       {
         label: "Om evolution: Variation och sköldpaddor",
-        url: "https://sliplay.se/medioteket/play/products/847937-om-evolution-variation-och-skoldpaddor"
+        url: "https://sliplay.se/medioteket/play/products/847937-om-evolution-variation-och-skoldpaddor",
       },
       {
         label: "Om evolution: Konkurrens och ödlor",
-        url: "https://sliplay.se/medioteket/play/products/847936-om-evolution-konkurrens-och-odlor"
+        url: "https://sliplay.se/medioteket/play/products/847936-om-evolution-konkurrens-och-odlor",
       },
       {
         label: "Om evolution: Galapagos och snygga hanar",
-        url: "https://sliplay.se/medioteket/play/products/847935-om-evolution-galapagos-och-snygga-hanar"
+        url: "https://sliplay.se/medioteket/play/products/847935-om-evolution-galapagos-och-snygga-hanar",
       },
       {
         label: "Om evolution: Dinosaurier, tid och fossil",
-        url: "https://sliplay.se/medioteket/play/products/847933-om-evolution-dinosaurier-tid-och-fossil"
-      }
+        url: "https://sliplay.se/medioteket/play/products/847933-om-evolution-dinosaurier-tid-och-fossil",
+      },
     ],
     questions: [
       {
         question: "Vad är en population?",
         options: [
-          "Alla levande varelser på jorden",
-          "En grupp individer av samma art som lever i samma område",
-          "Ett land med många invånare",
-          "Alla djur i en skog"
+          "Alla arter som lever i samma skog",
+          "Individer av samma art i samma område",
+          "Alla djur i ett land",
+          "En grupp djur som äter samma mat",
         ],
-        correctAnswer: "En grupp individer av samma art som lever i samma område",
+        correctAnswer: "Individer av samma art i samma område",
         explanation:
-          "En population består av individer av samma art som lever inom samma geografiska område och kan föröka sig med varandra."
+          "En population består av individer av samma art som lever inom samma geografiska område och kan föröka sig med varandra.",
       },
       {
-        question: "Vad är en art?",
+        question: "Vad krävs för att två djur ska tillhöra samma art?",
         options: [
-          "Alla djur som ser likadana ut",
-          "Organismer som kan föröka sig med varandra och få fruktsamt avkomma",
-          "Djur som bor i samma habitat",
-          "Organismer som äter samma mat"
+          "De måste se likadana ut",
+          "De måste bo i samma område",
+          "De måste kunna få fruktsam avkomma",
+          "De måste äta samma föda",
         ],
-        correctAnswer: "Organismer som kan föröka sig med varandra och få fruktsamt avkomma",
+        correctAnswer: "De måste kunna få fruktsam avkomma",
         explanation:
-          "En art definieras som en grupp organismer som kan para sig med varandra och få avkomma som i sin tur kan föröka sig."
+          "En art definieras som en grupp organismer som kan para sig och få avkomma som i sin tur kan föröka sig.",
       },
       {
-        question: "Vad är en hybrid?",
-        options: [
-          "En organism som lever både på land och i vatten",
-          "Avkomma från föräldrar av två olika arter",
-          "En art som har anpassat sig till en ny miljö",
-          "En organism som förökar sig utan partner"
-        ],
-        correctAnswer: "Avkomma från föräldrar av två olika arter",
+        question:
+          "En mula är korsningen mellan en häst och en åsna. Vad kallas en sådan korsning?",
+        options: ["En mutation", "En hybrid", "En variant", "En klon"],
+        correctAnswer: "En hybrid",
         explanation:
-          "En hybrid är avkomman av två individer från olika arter, till exempel en mula som är korsningen mellan en häst och en åsna. Hybrider är ofta sterila."
+          "En hybrid är avkomman av två individer från olika arter. Mulor är hybrider och är oftast sterila – de kan inte själva föröka sig.",
       },
       {
-        question: "Vad har alla levande organismer gemensamt när det gäller celler?",
+        question: "Vilket påstående stämmer om alla levande organismer?",
         options: [
-          "De har alla en cellkärna",
-          "De är alla uppbyggda av celler",
-          "De har alla kloroplaster",
-          "De har alla cellvägg"
+          "De andas med lungor",
+          "De är uppbyggda av celler",
+          "De har en hjärna",
+          "De förökar sig sexuellt",
         ],
-        correctAnswer: "De är alla uppbyggda av celler",
+        correctAnswer: "De är uppbyggda av celler",
         explanation:
-          "Alla levande organismer – från bakterier till människor – är uppbyggda av celler. Det är en av de grundläggande egenskaperna hos allt liv."
+          "Alla levande organismer – från bakterier till människor – är uppbyggda av celler. Det är en grundläggande egenskap hos allt liv.",
       },
       {
-        question: "Vad är skillnaden mellan en växtcell och en djurcell?",
+        question: "Vad har växtceller som djurceller saknar?",
         options: [
-          "Djurceller har cellkärna, växtceller har inte det",
-          "Växtceller har cellvägg och kloroplaster, djurceller saknar det",
-          "Växtceller är alltid större än djurceller",
-          "Djurceller kan inte föröka sig"
+          "Cellkärna och arvsmassa",
+          "Cellvägg och kloroplaster",
+          "Cellmembran och vatten",
+          "Proteiner och enzymer",
         ],
-        correctAnswer: "Växtceller har cellvägg och kloroplaster, djurceller saknar det",
+        correctAnswer: "Cellvägg och kloroplaster",
         explanation:
-          "Växtceller har cellvägg (av cellulosa) och kloroplaster som används vid fotosyntes. Djurceller saknar båda dessa strukturer."
+          "Växtceller har cellvägg av cellulosa och kloroplaster för fotosyntes. Djurceller saknar båda dessa strukturer.",
       },
       {
-        question: "Vad innebär det naturliga urvalet?",
+        question:
+          "En varg med tjockare päls överlever en kall vinter och får valpar. Vad kallas denna process?",
         options: [
-          "Att människan väljer vilka djur som får föröka sig",
-          "Att de individer som är bäst anpassade till sin miljö har störst chans att överleva och föröka sig",
-          "Att alla individer i en population överlever lika länge",
-          "Att miljön förändras för att passa djuren"
+          "Genetisk drift",
+          "Slumpmässig mutation",
+          "Naturligt urval",
+          "Artificiellt urval",
         ],
-        correctAnswer:
-          "Att de individer som är bäst anpassade till sin miljö har störst chans att överleva och föröka sig",
+        correctAnswer: "Naturligt urval",
         explanation:
-          "Det naturliga urvalet är kärnan i Darwins evolutionsteori. Individer med fördelaktiga egenskaper överlever bättre och för vidare sina gener till nästa generation."
+          "Det naturliga urvalet innebär att individer med fördelaktiga egenskaper överlever bättre och för vidare sina gener. Tjockare päls i kallt klimat är ett klassiskt exempel.",
       },
       {
         question: "Vad är evolution?",
         options: [
-          "Att ett djur förändras under sin livstid",
-          "Att arter förändras över många generationer genom naturligt urval",
-          "Att en individ tränar upp sina muskler",
-          "Att arter skapas av människan"
+          "Att ett djur tränar och blir starkare",
+          "Att en individ anpassar sig under livet",
+          "Att arter förändras över generationer",
+          "Att nya djur skapas av människan",
         ],
-        correctAnswer: "Att arter förändras över många generationer genom naturligt urval",
+        correctAnswer: "Att arter förändras över generationer",
         explanation:
-          "Evolution är den process där ärftliga egenskaper i en population förändras över generationer, drivet av bland annat naturligt urval, mutation och slump."
+          "Evolution är den process där ärftliga egenskaper i en population förändras över många generationer, drivet av naturligt urval, mutation och slump.",
       },
       {
-        question: "Hur såg jorden ut när den skapades – vad kallas den ursprungliga superkontinenten?",
-        options: [
-          "Atlantis",
-          "Gondwana",
-          "Pangea",
-          "Laurasia"
-        ],
+        question:
+          "Vad kallas den superkontinent som en gång samlade alla jordens landmassor?",
+        options: ["Gondwana", "Laurasia", "Pangea", "Atlantis"],
         correctAnswer: "Pangea",
         explanation:
-          "För ungefär 300 miljoner år sedan var alla kontinenter sammankopplade i en enda superkontinent som kallas Pangea. Den bröts sedan upp av kontinentalplattornas rörelser."
+          "För ungefär 300 miljoner år sedan var alla kontinenter sammankopplade i superkontinenten Pangea, som sedan bröts upp av kontinentalplattornas rörelser.",
       },
       {
-        question: "Vilka var de första organismerna på jorden?",
+        question: "Vilka var de första livsformerna på jorden?",
         options: [
-          "Dinosaurier",
-          "Bakterier",
-          "Alger",
-          "Insekter"
+          "Alger och mossor",
+          "Enkla bakterier",
+          "Maskar och svampar",
+          "Små insekter",
         ],
-        correctAnswer: "Bakterier",
+        correctAnswer: "Enkla bakterier",
         explanation:
-          "De första livsformerna på jorden var enkla encelliga organismer – bakterier – som uppstod för ungefär 3,5 miljarder år sedan."
+          "De första livsformerna var enkla encelliga bakterier som uppstod för ungefär 3,5 miljarder år sedan.",
       },
       {
         question: "Vad är ett fossil?",
         options: [
-          "En levande organism som är mycket gammal",
-          "Lämningar eller spår av forntida organismer som bevarats i berggrund",
+          "Ett utdött djur som frysts in",
           "En sten som liknar ett djur",
-          "Ett djur som är utrotat"
+          "Bevarade rester av forntida organismer",
+          "Ett djur som mumifierats i öknen",
         ],
-        correctAnswer: "Lämningar eller spår av forntida organismer som bevarats i berggrund",
+        correctAnswer: "Bevarade rester av forntida organismer",
         explanation:
-          "Fossil är rester av eller avtryck från organismer som levde för länge sedan. De bildas när organismen täcks av sediment som med tiden hårdnar till sten."
+          "Fossil är rester av eller avtryck från organismer som levde för länge sedan, bevarade i berggrund.",
       },
       {
-        question: "Hur bildas ett fossil?",
+        question: "Hur bildas de flesta fossil?",
         options: [
-          "Djuret fryser in och bevaras i is för evigt",
-          "Organismen täcks av sediment, mjukdelarna bryts ner och hårda delar mineraliseras över lång tid",
-          "Djuret begravs i sand och blir till guld",
-          "Organismen torkar ut och bevaras i sin ursprungliga form"
+          "Organismen fryser in i glaciäris",
+          "Organismen täcks av sediment och mineraliseras",
+          "Organismen torkar ut i ökenvärme",
+          "Organismen sjunker till havsbotten och förblir intakt",
         ],
-        correctAnswer:
-          "Organismen täcks av sediment, mjukdelarna bryts ner och hårda delar mineraliseras över lång tid",
+        correctAnswer: "Organismen täcks av sediment och mineraliseras",
         explanation:
-          "Fossilbildning sker när en organism täcks av sediment (t.ex. lera eller sand). Mjukdelar bryts ner, men ben och skal kan mineraliseras och bevaras i miljoner år."
+          "Fossilbildning sker oftast när en organism täcks av sediment som lera eller sand. Mjukdelar bryts ner men hårda delar kan mineraliseras och bevaras i miljoner år.",
       },
       {
-        question: "Vem var Charles Darwin och vad är han känd för?",
+        question: "Vad gjorde Charles Darwin känd inom vetenskapen?",
         options: [
-          "En fransk kemist som uppfann det periodiska systemet",
-          "En brittisk naturvetare som formulerade teorin om evolution genom naturligt urval",
-          "En tysk fysiker som beskrev relativitetsteorin",
-          "En svensk botaniker som namngav alla växter"
+          "Han uppfann mikroskopet",
+          "Han beskrev evolutionen via naturligt urval",
+          "Han kartlade jordens kontinenter",
+          "Han upptäckte den första bakterien",
         ],
-        correctAnswer:
-          "En brittisk naturvetare som formulerade teorin om evolution genom naturligt urval",
+        correctAnswer: "Han beskrev evolutionen via naturligt urval",
         explanation:
-          "Charles Darwin (1809–1882) var en brittisk naturvetare som efter sin berömda resa med HMS Beagle formulerade evolutionsteorin. Hans bok 'Om arternas uppkomst' från 1859 är ett av vetenskapens viktigaste verk."
+          "Darwin (1809–1882) formulerade evolutionsteorin efter sin resa med HMS Beagle. Hans bok 'Om arternas uppkomst' (1859) är ett av vetenskapens viktigaste verk.",
       },
       {
-        question: "Hur kan naturligt urval förändra ett djurs utseende över generationer?",
+        question:
+          "Galapagosöarnas finkar har olika näbbformer beroende på vilken ö de lever på. Vad visar detta?",
         options: [
-          "Djuret bestämmer själv hur det vill se ut",
-          "Individer med fördelaktiga egenskaper förökar sig mer, och egenskaperna sprids i populationen",
-          "Miljön injicerar nya gener i djuret",
-          "Alla individer muterar slumpmässigt varje generation"
+          "Att fåglar väljer näbbform själva",
+          "Att alla finkar egentligen är olika arter",
+          "Att naturligt urval anpassar arter till miljön",
+          "Att öar skapar slumpmässiga mutationer",
         ],
-        correctAnswer:
-          "Individer med fördelaktiga egenskaper förökar sig mer, och egenskaperna sprids i populationen",
+        correctAnswer: "Att naturligt urval anpassar arter till miljön",
         explanation:
-          "Om en egenskap – t.ex. en viss pälsfärg eller näbbform – ger överlevnadsfördel, förökar sig de individerna mer. Över många generationer blir egenskapen vanligare i populationen."
+          "Darwins finkar är ett klassiskt exempel på naturligt urval. Olika näbbformer ger fördel beroende på tillgänglig föda på respektive ö, vilket lett till anpassning över generationer.",
       },
       {
-        question: "Vad menas med variation i en population?",
+        question:
+          "Varför är variation inom en population viktig för evolution?",
         options: [
-          "Att alla individer ser exakt likadana ut",
-          "Att individer inom samma art skiljer sig åt i egenskaper",
-          "Att populationen byter art",
-          "Att populationen minskar i antal"
+          "Den gör populationen mer synlig för rovdjur",
+          "Den gör att alla individer överlever lika bra",
+          "Den ger naturligt urval något att verka på",
+          "Den hindrar korsning mellan arter",
         ],
-        correctAnswer: "Att individer inom samma art skiljer sig åt i egenskaper",
+        correctAnswer: "Den ger naturligt urval något att verka på",
         explanation:
-          "Variation innebär att individer inom en population har olika egenskaper, t.ex. olika storlek, färg eller motståndskraft mot sjukdom. Variationen är grunden för att naturligt urval ska kunna ske."
-      }
-    ]
+          "Utan variation skulle alla individer ha samma chans att överleva. Det är skillnaderna mellan individer som gör att vissa klarar sig bättre – och för vidare sina egenskaper.",
+      },
+    ],
   },
   "swedish-c1": {
     id: "swedish-c1",
@@ -695,27 +693,27 @@ export const sections = {
     structure: [
       {
         label: "Början",
-        text: "Vem handlar det om? Var är personen? Hur börjar det?"
+        text: "Vem handlar det om? Var är personen? Hur börjar det?",
       },
       {
         label: "Problem",
-        text: "Något förändras eller känns fel."
+        text: "Något förändras eller känns fel.",
       },
       {
         label: "Höjdpunkt",
-        text: "Det mest spännande eller viktiga händer."
+        text: "Det mest spännande eller viktiga händer.",
       },
       {
         label: "Avslutning",
-        text: "Berättelsen rundas av."
-      }
+        text: "Berättelsen rundas av.",
+      },
     ],
     checklist: [
       "Har berättelsen en början, mitt och slut?",
       "Händer något viktigt?",
       "Får man veta hur personen känner?",
       "Har du använt punkt och stor bokstav?",
-      "Har du delat in texten i stycken?"
+      "Har du delat in texten i stycken?",
     ],
     example: {
       title: "Nyckeln under stenen",
@@ -738,15 +736,15 @@ export const sections = {
         "– Vad är det här? viskade jag.",
         "Mormor gick fram och la handen på min axel.",
         "– En berättelse som har väntat på dig, sa hon.",
-        "Sedan log hon, och för första gången den dagen kände jag mig inte rädd längre. Bara nyfiken. Regnet hade slutat helt nu, och långt borta bröt solen fram mellan molnen."
-      ]
+        "Sedan log hon, och för första gången den dagen kände jag mig inte rädd längre. Bara nyfiken. Regnet hade slutat helt nu, och långt borta bröt solen fram mellan molnen.",
+      ],
     },
     exampleNotes: [
       "Tydlig inledning",
       "Något oväntat händer",
       "Spänningen byggs upp steg för steg",
       "Miljö och känslor beskrivs",
-      "Berättelsen får ett tydligt men lite mystiskt avslut"
-    ]
-  }
+      "Berättelsen får ett tydligt men lite mystiskt avslut",
+    ],
+  },
 };
